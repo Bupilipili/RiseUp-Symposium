@@ -166,7 +166,7 @@ body {
     right: 0;
     background-color: rgba(200, 200, 200, 0.59);
     backdrop-filter: blur(0px);
-    height: 60vh;
+    height: 80vh;
 }
 
 .form {
