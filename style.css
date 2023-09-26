@@ -166,7 +166,7 @@ body {
     right: 0;
     background-color: rgba(200, 200, 200, 0.59);
     backdrop-filter: blur(0px);
-    height: 120vh;
+    height: 80vh;
 }
 
 .form {
@@ -274,7 +274,7 @@ textarea {
 
     .background3 {
         top: 90.1rem;
-        height: 131vh;
+        height: 90vh;
     }
 }
 @media screen and (min-width: 393px) {
@@ -285,7 +285,7 @@ textarea {
 
     .background3 {
         top: 88.9rem;
-        height: 131vh;   
+        height: 88vh;   
     }
 }
 
@@ -319,7 +319,7 @@ textarea {
     }
     .background3 {
         top: 87.4rem;
-        height: 130vh;  
+        height: 80vh;  
     }
 }
 
