@@ -63,6 +63,12 @@ body {
     padding-bottom: 1rem;
 }
 
+.venue {
+    color:#495076;
+    font-size: 18px;
+    font-style: oblique;
+}
+
 .strike {
     width: 100vw;
     height: 80vh;
@@ -114,12 +120,12 @@ body {
 
 .background2 {
     position: absolute;
-    top: 55rem;
+    top: 62.9rem;
     left: 0;
     right: 0;
-    bottom: -31.5rem;
     background-color: rgba(280, 250, 268, 0.59);
     backdrop-filter: blur(0px);
+    height: 25vh;
 }
 
 .cub {
@@ -157,12 +163,12 @@ body {
 
 .background3 {
     position: absolute;
-    top: 83.5rem;
+    top: 91.4rem;
     left: 0;
     right: 0;
-    bottom: -85rem;
     background-color: rgba(280, 250, 268, 0.59);
     backdrop-filter: blur(0px);
+    height: 60vh;
 }
 
 .form {
@@ -250,48 +256,79 @@ textarea {
     background: #008552;
 }  
   
-@media screen and (width: 375px) {
+@media screen and (min-width: 375px) {
     .background2 {
         bottom: -32.5rem;
+    }
+    .background3 {
+        height: 103vh;   
     }
     
 }
 
-@media screen and (width: 390px) {
+@media screen and (min-width: 390px) {
 
     .background2 {
         bottom: -30rem;
     }
 
     .background3 {
-        top: 82.5rem;   
+        top: 90.1rem;
+        height: 64vh;
+    }
+}
+@media screen and (min-width: 393px) {
+
+    .background2 {
+        bottom: -30rem;
+    }
+
+    .background3 {
+        top: 88.9rem;
+        height: 63vh;   
     }
 }
 
-@media screen and (width: 360px) {
+@media screen and (min-width: 360px) {
 
     .background2 {
         bottom: -17rem;
     }
-}
-
-@media screen and (width: 412px) {
-
-    .background2 {
-        top: 53.6rem;   
-        bottom: -3.5rem;
-    }
     .background3 {
-        top: 79.5rem;   
+        height: 73vh;
     }
 }
 
-@media screen and (width: 425px) {
+@media screen and (min-width: 414px) {
 
     .background2 {
-        top: 53rem;
+        top: 61.4rem;
+        height: 15vh; 
     }
     .background3 {
-        top: 79.5rem;
+        top: 87.4rem;
+        height: 60vh;  
+    }
+}
+
+@media screen and (min-width: 412px) {
+
+    .background2 {
+        top: 61.4rem;
+        height: 15vh; 
+    }
+    .background3 {
+        top: 87.4rem;
+        height: 60vh;  
+    }
+}
+
+@media screen and (min-width: 425px) {
+
+    .background2 {
+        top: 59.4rem;
+    }
+    .background3 {
+        top: 85.2rem;
     }
 }
