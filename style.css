@@ -184,7 +184,8 @@ body {
 }
 
 .name-input {
-    background-color: rgba(80, 150, 262, 0.59);
+    background-color: rgba(255, 255, 255, 1);
+    backdrop-filter: blur(0px);
     border-color: #193869;
     border-width: 0px;
     border-radius: 8px;
@@ -199,7 +200,7 @@ body {
 }
   
 .email-input {
-    background-color: rgba(80, 150, 262, 0.59);
+    background-color: rgba(255, 255, 255, 1);
     border-width: 0px;
     border-radius: 8px;
     padding: 0.5rem;
@@ -219,7 +220,7 @@ body {
 }
   
 .message-input {
-    background-color: rgba(80, 150, 262, 0.59);
+    background-color: rgba(255, 255, 255, 1);
     border-width: 0;
     border-radius: 8px;
 }
@@ -331,6 +332,6 @@ textarea {
         height: 23vh;
     }
     .background3 {
-        height: 100vh;
+        height: 114vh;
     }
 }
