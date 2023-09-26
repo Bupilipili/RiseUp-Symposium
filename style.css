@@ -266,7 +266,7 @@ textarea {
         bottom: -32.5rem;
     }
     .background3 {
-        height: 103vh;   
+        height: 120vh;   
     }
     
 }
@@ -294,13 +294,13 @@ textarea {
     }
 }
 
-@media screen and (min-width: 360px) {
+@media screen and (width: 360px) {
 
     .background2 {
         bottom: -17rem;
     }
     .background3 {
-        height: 73vh;
+        height: 100vh;
     }
 }
 
@@ -324,7 +324,7 @@ textarea {
     }
     .background3 {
         top: 87.4rem;
-        height: 60vh;  
+        height: 70vh;  
     }
 }
 
