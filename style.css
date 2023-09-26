@@ -184,10 +184,11 @@ body {
 }
 
 .name-input {
-    background-color: rgba(161, 206, 284, 0.59);
+    background-color: rgba(80, 150, 262, 0.59);
     border-color: #193869;
     border-width: 0px;
     border-radius: 8px;
+    padding: 0.5rem;
 }
 
 .name-input::placeholder {
@@ -198,9 +199,10 @@ body {
 }
   
 .email-input {
-    background-color: rgba(161, 206, 284, 0.59);
+    background-color: rgba(80, 150, 262, 0.59);
     border-width: 0px;
     border-radius: 8px;
+    padding: 0.5rem;
 }
 
 .email-input::placeholder {
@@ -217,7 +219,7 @@ body {
 }
   
 .message-input {
-    background-color: rgba(161, 206, 284, 0.59);
+    background-color: rgba(80, 150, 262, 0.59);
     border-width: 0;
     border-radius: 8px;
 }
