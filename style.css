@@ -166,7 +166,7 @@ body {
     right: 0;
     background-color: rgba(200, 200, 200, 0.59);
     backdrop-filter: blur(0px);
-    height: 80vh;
+    height: 90vh;
 }
 
 .form {
@@ -248,33 +248,41 @@ textarea {
   
 .register:hover {
     transform: scale(1.15);
-    background: #36b37f;
+    background: #2d30da;
     box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
 }
   
 .register:active {
-    background: #008552;
-}  
+    background: #0d0085;
+}
+
+.sub2 {
+    color: #FFF;
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: 0.14px;
+    margin: 0;
+    padding-top: 1rem;
+}
   
 @media screen and (min-width: 375px) {
     .background2 {
-        bottom: -32.5rem;
+        top: 60.6rem;
     }
     .background3 {
-        height: 120vh;   
+        height: 153vh;
+        top: 88.99rem;  
     }
     
 }
 
 @media screen and (min-width: 390px) {
 
-    .background2 {
-        bottom: -30rem;
-    }
-
     .background3 {
-        top: 90.1rem;
-        height: 90vh;
+        top: 87.9rem;
+        height: 115vh;
     }
 }
 @media screen and (min-width: 393px) {
@@ -284,18 +292,19 @@ textarea {
     }
 
     .background3 {
-        top: 88.9rem;
-        height: 88vh;   
+        top: 86.6rem;
+        height: 115vh;  
     }
 }
 
 @media screen and (width: 360px) {
 
     .background2 {
-        bottom: -17rem;
+        top: 60.7rem;
     }
     .background3 {
-        height: 100vh;
+        height: 110vh;
+        top: 89.2rem;
     }
 }
 
@@ -314,12 +323,12 @@ textarea {
 @media screen and (min-width: 412px) {
 
     .background2 {
-        top: 61.4rem;
-        height: 15vh; 
+        top: 59.3rem;
+        height: 24vh;
     }
     .background3 {
-        top: 87.4rem;
-        height: 80vh;  
+        top: 85.3rem;
+        height: 110vh;  
     }
 }
 
@@ -329,6 +338,6 @@ textarea {
         height: 23vh;
     }
     .background3 {
-        height: 114vh;
+        height: 148vh;
     }
 }
